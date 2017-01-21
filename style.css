@@ -1,0 +1,39 @@
+.social-icon:hover {
+	background-color: #DDA0DD;
+	border-radius: 25px;
+}
+
+.about-pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+}
+
+.portfolio {
+  
+}
+
+.about {
+  
+
+}
+
+.background-image {
+  text-align: center;
+  margin: auto;
+}
+
+.portfolio-pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer {
+  text-align: center;
+}
