@@ -1,5 +1,13 @@
+body {
+  color: #5E412F;
+}
+
+.social-icon {
+  color: #5E412F;
+}
+
 .social-icon:hover {
-	background-color: #DDA0DD;
+	background-color: #F07818;
 	border-radius: 25px;
 }
 
@@ -26,6 +34,13 @@
 .background-image {
   text-align: center;
   margin: auto;
+  background-image: url("img/background.jpeg"); 
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  padding-top: 10%;
+  padding-bottom: 50%;
 }
 
 .portfolio-pictures {
