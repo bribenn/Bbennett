@@ -1,0 +1,39 @@
+body {
+  color: #5E412F; }
+
+.social-icon {
+  color: #5E412F; }
+
+.social-icon:hover {
+  background-color: #F07818;
+  border-radius: 25px; }
+
+.about-pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.header {
+  text-align: center;
+  font-size: 40px; }
+
+.background-image {
+  text-align: center;
+  margin: auto;
+  background-image: url("img/background.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  padding-top: 10%;
+  padding-bottom: 50%; }
+
+.portfolio-pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.footer {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
