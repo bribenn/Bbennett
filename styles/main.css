@@ -20,7 +20,7 @@ body {
 .background-image {
   text-align: center;
   margin: auto;
-  background-image: url("img/background.jpeg");
+  background-image: url("../img/background.jpeg");
   background-size: cover;
   background-attachment: fixed;
   position: relative;
