@@ -52,3 +52,7 @@ body {
 .footer {
   text-align: center;
 }
+
+.col-md-4 {
+  height: 300px;
+}
