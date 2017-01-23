@@ -5,6 +5,10 @@ $site-turquoise: #78C0A8;
 $site-gold: #F0A830;
 $pink: #ff8c66;
 
+* {
+  font-family: 'Josefin Slab', serif;
+}
+
 body {
   color: #5E412F;
 }
@@ -30,8 +34,10 @@ body {
 }
 
 .about {
-  
-
+  background-color: $site-tan;
+  .about-divs {
+    background-color: $site-tan;
+  }
 }
 
 .background-image {
@@ -44,6 +50,9 @@ body {
   background-repeat: no-repeat;
   padding-top: 10%;
   padding-bottom: 50%;
+  h1 {
+    font-size: 55px;
+  }
 }
 
 .portfolio-pictures {
@@ -131,3 +140,24 @@ body {
 .col-md-4 {
   height: 50%;
 }
+
+.flipper {
+  .col-md-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 450px;
+  font-size: 40px;
+  background-color: $site-gold;
+  margin: 10px;
+  width: 450px;
+  vertical-align: middle;
+  line-height: 450px;
+  }
+  .back {
+    display: hidden;
+  }
+}
+
+
+

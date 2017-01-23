@@ -1,3 +1,6 @@
+* {
+  font-family: 'Josefin Slab', serif; }
+
 body {
   color: #5E412F; }
 
@@ -14,6 +17,11 @@ body {
   text-align: center;
   font-size: 40px; }
 
+.about {
+  background-color: #FCEBB6; }
+  .about .about-divs {
+    background-color: #FCEBB6; }
+
 .background-image {
   text-align: center;
   margin: auto;
@@ -24,6 +32,8 @@ body {
   background-repeat: no-repeat;
   padding-top: 10%;
   padding-bottom: 50%; }
+  .background-image h1 {
+    font-size: 55px; }
 
 .portfolio-pictures {
   display: flex;
@@ -97,5 +107,19 @@ body {
 
 .col-md-4 {
   height: 50%; }
+
+.flipper .col-md-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 450px;
+  font-size: 40px;
+  background-color: #F0A830;
+  margin: 10px;
+  width: 450px;
+  vertical-align: middle;
+  line-height: 450px; }
+.flipper .back {
+  display: hidden; }
 
 /*# sourceMappingURL=main.css.map */
