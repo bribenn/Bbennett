@@ -1,16 +1,16 @@
 $site-brown: #5E412F;
 $site-orange: #F07818;
+$site-tan: #FCEBB6;
+$site-turquoise: #78C0A8;
+$site-gold: #F0A830;
+$pink: #ff8c66;
 
 body {
   color: #5E412F;
 }
 
-.social-icon {
-  color: #5E412F;
-}
-
 .social-icon:hover {
-	background-color: #F07818;
+	background-color: $pink;
 	border-radius: 25px;
 }
 
@@ -37,7 +37,7 @@ body {
 .background-image {
   text-align: center;
   margin: auto;
-  background-image: url("img/background.jpeg"); 
+  background-image: url("../img/background.jpeg"); 
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -54,4 +54,80 @@ body {
 
 .footer {
   text-align: center;
+}
+
+#sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: 0px;
+  height: 100%;
+  padding-top: 10px;
+  z-index: 2;
+  overflow: hidden;
+  animation: all 0.5s ease;
+  background-color: $site-turquoise;
+  color: white;
+    h2 {
+      font-size: 40px;
+      line-height: 40px;
+      margin: 4px;
+      padding: 0px;
+    }
+    a {
+      color: $pink;
+      font-size: 24px;
+      margin-left: 10px;
+    }
+}
+
+.sidebar-links {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar-wrapper.open {
+  width: 300px;
+}
+
+#close-btn {
+  margin-top: 10px;
+  margin-left: 30px;
+  align-self: flex-start;
+  color: white;
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#hamburger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 40px;
+  width: 40px;
+  top: 20px;
+  left: 30px;
+  border-radius: 5px;
+  z-index: 1;
+  background-color: $site-turquoise;
+  img {
+    height: 30px;
+    width: 30px;
+  }
+  :hover {
+    cursor: pointer;
+  }
+}
+
+.col-md-4 {
+  height: 50%;
 }
