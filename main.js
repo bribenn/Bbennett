@@ -9,6 +9,13 @@ $(document).ready(function(){
 		console.log($menu);
 		$menu.removeClass('open');
 	});
+
+	$(".about-box-front").click(function(){
+		$(this).addClass("about-box-back").show().removeClass("about-box-front").mouseleave(function() {
+			$(this).removeClass("back");
+		});
+		return false;
+	});
 });
 
 
