@@ -27,18 +27,20 @@ body {
 .header {
   text-align: center;
   font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .portfolio {
   
 }
 
-.about {
+/*.about {
   background-color: $site-tan;
   .about-divs {
     background-color: $site-tan;
   }
-}
+}*/
 
 .background-image {
   text-align: center;
@@ -63,6 +65,7 @@ body {
 
 .footer {
   text-align: center;
+  clear: both;
 }
 
 #sidebar-wrapper {
@@ -127,7 +130,7 @@ body {
   left: 30px;
   border-radius: 5px;
   z-index: 1;
-  background-color: $site-turquoise;
+  background-color: $site-brown;
   img {
     height: 30px;
     width: 30px;
@@ -139,7 +142,16 @@ body {
 
 .col-md-4 {
   height: 50%;
+  h2 {
+    text-align: center;
+  }
 }
+
+p {
+    font-size: 20px;
+    padding: 20px 30px 20px 30px;
+    color: $site-brown;
+  }
 
 .flipper {
   .col-md-4 {
@@ -158,6 +170,8 @@ body {
     display: hidden;
   }
 }
+
+
 
 
 
