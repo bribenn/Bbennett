@@ -8,23 +8,22 @@ body {
   background-color: #ff8c66;
   border-radius: 25px; }
 
-.about-pictures {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-
 .header {
   text-align: center;
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 20px; }
 
-/*.about {
-  background-color: $site-tan;
-  .about-divs {
-    background-color: $site-tan;
-  }
-}*/
+#about .about-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+#about img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
 .background-image {
   text-align: center;
   margin: auto;
@@ -46,10 +45,7 @@ body {
   flex-direction: row;
   justify-content: space-around; }
 
-.footer {
-  text-align: center;
-  clear: both; }
-
+/*navbar*/
 #sidebar-wrapper {
   display: flex;
   flex-direction: column;
@@ -112,28 +108,15 @@ body {
   #hamburger :hover {
     cursor: pointer; }
 
-.col-md-4 {
-  height: 50%; }
-  .col-md-4 h2 {
-    text-align: center; }
+.footer {
+  text-align: center;
+  clear: both; }
 
-p {
-  font-size: 20px;
-  padding: 20px 30px 20px 30px;
-  color: #5E412F; }
+.back {
+  display: none; }
 
-.flipper .col-md-4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.row {
   height: 450px;
-  font-size: 40px;
-  background-color: #F0A830;
-  margin: 10px;
-  width: 450px;
-  vertical-align: middle;
-  line-height: 450px; }
-.flipper .back {
-  display: hidden; }
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
