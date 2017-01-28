@@ -2,7 +2,8 @@
   font-family: 'Josefin Slab', serif; }
 
 body {
-  color: #5E412F; }
+  color: #5E412F;
+  background-color: #FCEBB6; }
 
 .social-icon:hover {
   background-color: #ff8c66;
@@ -43,7 +44,9 @@ body {
 .portfolio-pictures {
   display: flex;
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: space-around;
+  height: 450px;
+  width: 100%; }
 
 /*navbar*/
 #sidebar-wrapper {
@@ -112,11 +115,35 @@ body {
   text-align: center;
   clear: both; }
 
-.back {
-  display: none; }
+/*flip the pics */
+.about-box-container {
+  height: 450px; }
 
-.row {
-  height: 450px;
+.about-box {
   width: 100%; }
+
+.about-box-container .back {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background: #ff8c66;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.back:hover {
+  opacity: 1; }
+
+img:hover {
+  opacity: 1; }
 
 /*# sourceMappingURL=main.css.map */

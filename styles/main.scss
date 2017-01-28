@@ -11,6 +11,7 @@ $pink: #ff8c66;
 
 body {
   color: #5E412F;
+  background-color: $site-tan;
 }
 
 .social-icon:hover {
@@ -63,6 +64,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 450px;
+  width: 100%;
 }
 
 /*navbar*/
@@ -144,12 +147,37 @@ body {
   clear: both;
 }
 
-.back {
-  display: none;
+/*flip the pics */
+
+.about-box-container {
+  height: 450px;
+}
+.about-box {
+  width: 100%;
+}
+.about-box-container .back {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background: $pink;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.back:hover {
+  opacity: 1;
 }
 
-.row {
-  height: 450px;
-  width: 100%;
+img:hover {
+  opacity: 1;
 }
 
