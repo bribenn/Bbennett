@@ -5,17 +5,23 @@ $(document).ready(function(){
 		$menu.addClass('open');
 		return evt.target.tagName === 'A';
 	}).on('click', '.js-menu-close', function(evt){
-		console.log('hello');
-		console.log($menu);
 		$menu.removeClass('open');
 	});
 
-	$(".about-box-front").click(function(){
-		$(this).addClass("about-box-back").show().removeClass("about-box-front").mouseleave(function() {
-			$(this).removeClass("back");
-		});
-		return false;
-	});
+// 	$('.row').hover(
+// 	function() {
+//     $('#box-1').fadeOut(300, function() {
+//     	$('#box-b2').fadeIn(300);
+//     });
+//   },
+
+//   function() {
+//     $('#box-b2').fadeOut(300, function() {
+//     	$('#box-b1').fadeIn(300);
+//     });
+//   }
+// );
+
 });
 
 
