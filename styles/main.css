@@ -111,10 +111,14 @@ body {
     height: 48px;
     width: 48px; }
   #hamburger :hover {
-    color: #ff8c66;
+    background-color: #ff8c66;
     border-radius: 25px;
     cursor: pointer; }
 
+/*#hamburger:hover {
+  background-color: $pink;
+  border-radius: 25px;
+}*/
 .footer {
   text-align: center;
   clear: both; }

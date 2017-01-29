@@ -141,11 +141,16 @@ body {
     width: 48px;
   }
   :hover {
-    color: $pink;
+    background-color: $pink;
     border-radius: 25px;
     cursor: pointer;
   }
 }
+
+/*#hamburger:hover {
+  background-color: $pink;
+  border-radius: 25px;
+}*/
 
 .footer {
   text-align: center;
