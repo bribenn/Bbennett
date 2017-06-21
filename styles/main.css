@@ -1,5 +1,8 @@
 * {
-  font-family: 'Josefin Slab', serif; }
+  font-family: 'Josefin Slab', serif;
+  margin: 0px;
+  padding: 0px;
+  }
 
 body {
   color: #5E412F; }
@@ -45,6 +48,14 @@ body {
 .word-cloud {
   width: 100%;
   height: 450px; }
+
+.gradient {
+    background: #78C0A8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#78C0A8, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#78C0A8, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#78C0A8, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#78C0A8, white); /* Standard syntax */ 
+}
 
 #portfolio {
   background-image: url("../img/glitter.jpg");
