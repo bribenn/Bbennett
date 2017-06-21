@@ -31,7 +31,9 @@ body {
     font-style: italic; }
 
 #about {
-  padding: 100px; }
+  padding: 100px;
+  background-image: url("../img/glitter.jpg");
+  }
 
 .left-col {
   text-align: right;
@@ -45,7 +47,8 @@ body {
   height: 450px; }
 
 #portfolio {
-  background-color: #ffeaab;
+  background-image: url("../img/glitter.jpg");
+  background-size: 100%;
   padding-top: 100px;
   padding-bottom: 100px; }
 
