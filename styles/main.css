@@ -118,14 +118,23 @@ body {
   height: 375px;
   width: 100%; }
 
-.portfolio-pictures img {
+.portfolio img {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.portfolio .left {
+  margin-top: -5%;
+}
+
+/*.portfolio-pictures img {
   height: 375px;
   width: 500px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   height: 375px;
-  width: 100%; }
+  width: 100%; }*/
 
 /*navbar*/
 #sidebar-wrapper {
