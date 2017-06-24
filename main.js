@@ -9,7 +9,7 @@ $(document).ready(function(){
 	});
 
 	// scrolling words
-		var words = ["coder", "problem solver",  "team player", "full-stack developer"],
+		var words = ["coder", "problem solver",  "team player", "developer", "bit weird"],
 			el = document.getElementById('scroll'),
 			word_counter = 0,
 			character_counter = 0;

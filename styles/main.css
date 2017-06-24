@@ -51,41 +51,45 @@ body {
     font-style: italic; }
 
 #about {
-  padding: 100px;
-  background-image: url("../img/glitter.jpg");
-
+  height: 800px;
   }
+
+.about {
+  width: 80%;
+  margin-top: 33%;
+}
+
+.about p {
+  padding: 10px;
+}
 
 #scroll {
   display: inline;
   text-align: center;
-  color: #ff8c66;
+  color: white;
   font-size: 100px;
 }
 
 .scroll {
   text-align: center;
-  color: #5E412F;
   font-size: 100px;
 }
 
 .left-col {
+  background-image: url("../img/background_climb.png");
+  height: 100%;
   text-align: right;
-  color: #ff8c66; }
+  color: #78C0A8; }
 
-.right-col {
-  font-size: 18px; }
-
-.gradient {
-    background: #78C0A8; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#78C0A8, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#78C0A8, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#78C0A8, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#78C0A8, white); /* Standard syntax */ 
+.left-col h1 {
+  font-size: 80px;
 }
 
+.right-col {
+  font-size: 18px;
+  }
+
 #portfolio {
-  background-image: url("../img/glitter.jpg");
   background-size: 100%;
   padding-top: 100px;
   padding-bottom: 100px; }
@@ -170,13 +174,10 @@ body {
     border-radius: 25px;
     cursor: pointer; }
 
-/*#hamburger:hover {
-  background-color: $pink;
-  border-radius: 25px;
-}*/
 .footer {
   text-align: center;
-  clear: both; }
+  clear: both; 
+  }
 
 /*flip the pics */
 /*.about-box-container {
