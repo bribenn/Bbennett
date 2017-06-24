@@ -20,7 +20,12 @@ body {
 
 #skills h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 80px;
+  color: #ff8c66;
+}
+
+#skills h1:first-of-type {
+  margin-top: 33%;
 }
 
 #skills p {
@@ -28,11 +33,23 @@ body {
   font-size: 20px;
 }
 
+.frameworks {
+  padding-right: 0px;
+}
+
 .header {
   text-align: center;
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 20px; }
+
+.col-md-3 div{
+  display: inline-block;
+}
+
+#skills img {
+  padding-bottom: 30px;
+}
 
 .background-image {
   text-align: center;
