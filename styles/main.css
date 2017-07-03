@@ -69,6 +69,7 @@ body {
 
 #about {
   height: 800px;
+  background-color: #ffeaab;
   }
 
 .about {
@@ -122,10 +123,12 @@ body {
   padding-right: 0px;
   padding-left: 0px;
 }
-
-.portfolio .left {
-  margin-top: -5%;
+#contact {
+  background-color: #ffeaab;
 }
+/*.portfolio .left {
+  margin-top: -5%;
+}*/
 
 /*.portfolio-pictures img {
   height: 375px;
