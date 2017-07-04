@@ -6,7 +6,7 @@
 
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet">
 
   <link rel="stylesheet" href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css>
 
@@ -29,33 +29,33 @@
     <h2>Bennett</h2>
     <div class="sidebar-links">
       <a href="#about"> About </a> 
-      <a href="#portfolio"> Portfolio </a>
+      <a href="#portfolio"> Projects </a>
       <a href="#contact"> Contact </a> 
     </div>
   </div>
   <div class="intro container-fluid hero background-image"> 
     <div class="container">
-      <h1> BRIANA BENNETT</h1>
-      <h2> Full-Stack Developer </h2>
+      <h1>BRIANA BENNETT</h1>
+      <h2> Full-Stack Web Developer </h2>
     <div class="social-media">
       <a class="social-link" href="https://www.linkedin.com/in/bennettbriana" target="_blank">
-        <img class="social-icon" id="li" src="img/icons/linkedin_brown.png" >
+        <img class="social-icon" id="li" src="img/icons/linkedin_burgundy.png" >
       </a>
       <a class="social-link" href="https://www.github.com/bribenn" target="_blank">
-        <img class="social-icon" id="gH" src="img/icons/github_brown.png">
+        <img class="social-icon" id="gH" src="img/icons/github_burgundy.png">
       </a>
       <a href="https://www.instagram.com/brileebenn/" class="social-link" target="_blank">
-        <img class="social-icon" id="insta" src="img/icons/instagram_brown.png">
+        <img class="social-icon" id="insta" src="img/icons/insta_burgundy.png">
       </a>
       <!-- <a href="http://twopondsnofish.blogspot.com/" class="social-link" target="_blank">
         <img class="social-icon" id="blogger" src="img/icons/Blogger_Brown.png">
       </a> -->
       <a href="mailto:bri.bennett89@gmail.com" class="social-link" target="_blank">
-        <img class="social-icon" id="email" src="img/icons/email.png">
+        <img class="social-icon" id="email" src="img/icons/email_burgundy.png">
       </a>
     </div>
     <div id="hamburger" class="js-menu-open">
-      <img src="img/icons/right-arrow.png">
+      <img src="img/icons/over-arrow.png">
     </div>
     </div>
   </div>
@@ -85,7 +85,7 @@
       <h1>Skills</h1>
     </div>
     <div class="col-md-3">
-      <img src="img/Languages_teal.png" class='skills'>
+      <img src="img/languages.png" class='skills'>
       <div class="languages col-md-12">
         <div class="col-md-6">
           <p>Javascript</p>
@@ -101,14 +101,14 @@
       </div>
     </div>
     <div class="col-md-3">
-      <img src="img/databases_teal.png" class='skills'>
+      <img src="img/databases.png" class='skills'>
       <p>MySQL</p>
       <p>SQLite</p>
       <p>PostgresSQL</p>
       <p>MongoDB</p>
     </div>
     <div class="col-md-3">
-      <img src="img/frameworks_teal.png" class='skills'>
+      <img src="img/frameworks.png" class='skills'>
       <div class="frameworks col-md-12">
         <div class="col-md-6">
           <p>Django</p>
@@ -129,18 +129,35 @@
   </div>
 </div>
 <div id='portfolio' class="portfolio container-fluid hero">
-  <a href="https://bribenn.github.io/Portfolio/" target="_blank">
-    <img class="col-md-3 left" src="img/placeholder_portfolio.png">
-  </a>
-  <a href="https://github.com/bribenn/blinking-rows-" target="_blank">
-    <img class = "col-md-3" src="img/placeholder_site.png">
-  </a>
-  <a href="https://github.com/bribenn/Tic-Tac-Toe-" target="_blank">
-    <img class = "col-md-3 left" src="img/dojosecrets.png">
-  </a>
-  <a href="https://github.com/bribenn/Tic-Tac-Toe-" target="_blank">
-    <img class = "col-md-3" src="img/placeholder4.png">
-  </a>
+  <div class="portfolio_img img_one col-md-3">
+    <h1>
+      <a href="https://bribenn.github.io/Portfolio/" target="_blank">
+      +</a>
+    </h1>
+    <p class="text-content">Project Description
+    </p>
+  </div>
+  <div class="portfolio_img img_two col-md-3">
+    <h1>+</h1>
+    <p class="text-content">Project Description
+      <a href="https://github.com/bribenn/blinking-rows-" target="_blank">
+      </a>
+    </p>
+  </div>
+  <div class="portfolio_img img_three col-md-3">
+    <h1>+</h1>
+    <p class="text-content">Project Description
+      <a href="https://github.com/bribenn/Dojo-Secrets" target="_blank">
+      </a>
+    </p>
+  </div>
+  <div class="portfolio_img img_four col-md-3">
+    <h1>+</h1>
+    <p class="text-content">Project Description
+      <a href="https://github.com/bribenn/Tic-Tac-Toe-" target="_blank">
+      </a>
+    </p>
+  </div>
 </div> 
 
   <div id="contact" class="contact">
@@ -148,16 +165,13 @@
       Contact
     </div>
     <div class="email-submit">
-     <!-- email submission form with send button -->
- <form action="https://formspree.io/bri.bennett89@gmail.com" method="POST">
-      Name <br>
-    <input type="text" name="name"><br><br>
-      Email <br>
-    <input type="email" name="_replyto"><br><br>
-      Write to me: <br>
-    <textarea cols="45" rows="5"></textarea><br> 
-    <input class="hover" type="submit" value="Send">
-  </form>
+     <!-- email submission form -->
+     <form action="https://formspree.io/bri.bennett89@gmail.com" method="POST">
+        <input type="text" placeholder="Your Name Here" name="name">
+        <input type="email" placeholder="Your Email Here" name="_replyto">
+        <textarea placeholder="Your Message Here" cols="45" rows="5"></textarea> 
+        <input class="hover" type="submit" value="Send">
+     </form>
     </div>
   </div> 
   <div class="footer">

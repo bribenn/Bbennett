@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	var $menu = $('#sidebar-wrapper');
-	// I don't really understand this evt function
 	$(document).on('click', '.js-menu-open', function(evt){
 		$menu.addClass('open');
 		return evt.target.tagName === 'A';
@@ -32,7 +31,7 @@ $(document).ready(function(){
 					word_counter = 0;
 			}
 		}
-		setInterval(updateText,400);
+		setInterval(updateText,300);
 });
 
 
