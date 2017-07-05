@@ -59,16 +59,8 @@ body {
 
 .header {
   text-align: center;
-  font-size: 40px;
-  margin-bottom: 20px; }
-
-.col-md-3 div{
-  display: inline-block;
-}
-
-#skills img {
-  padding-bottom: 30px;
-}
+  font-size: 2.5em;
+  margin-bottom: 1.25em; }
 
 .background-image {
   text-align: center;
@@ -88,7 +80,7 @@ body {
     font-style: italic; }
 
 #about {
-  height: 800px;
+  height: 57em;
   background-color: $cream;
   }
 
@@ -98,33 +90,29 @@ body {
 }
 
 .about p {
-  padding: 10px;
+  padding: .625em;
 }
 
 #scroll {
   display: inline;
   text-align: center;
   color: $charcoal;
-  font-size: 100px;
-}
-
-.scroll {
-  text-align: center;
-  font-size: 100px;
+  font-size: 6.250em;
 }
 
 .left-col {
   background-image: url("../img/background_climb_green.png");
+  background-repeat: none;
   height: 100%;
   text-align: right;
   color: $petal; }
 
 .left-col h1 {
-  font-size: 80px;
+  font-size: 5em;
 }
 
 .right-col {
-  font-size: 20px;
+  font-size: 1.250em;
   }
 
 /*Project Descriptions */
@@ -165,7 +153,7 @@ p.text-content {
 }
 
 .img_two {
-  background-image: url("../img/dojosecrets.png");
+  background-image: url("../img/placeholder_portfolio.png");
   background-size: cover;
 }
 
