@@ -39,7 +39,7 @@ body {
 
 #skills h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 5em;
   color: #charcoal;
 }
 
@@ -128,7 +128,7 @@ p.text-content {
   display: block;
   text-align: center;
   padding-top: 5%;
-  margin-top: -20%;
+  margin-top: -21%;
 }
 
 .portfolio_img a {
@@ -286,10 +286,62 @@ p.text-content {
   background-color: $cream;
   }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 1000px) {
+  .left-col {
+    background: none;
+    text-align: center;
+    height: 0%;
+  }
+  .right-col {
+  text-align: center;
+  }
+  #about {
+    height: 45em;
+  }
+  #skills h1:first-of-type {
+    margin-top: 4%;
+  }
+  .skills {
+    width: 45%;
+    margin-top: auto;
+  }
+  .about {
+    margin-top: 30%;
+    width: 100%;
+    p {
+    text-align: center;
+    }
+  }
+  .skills div.col-md-3 {
+    display: inline-block;
+    width: 45%;
+    margin:auto;
+  }
+  #portfolio {
+    text-align: center;
+  }
+  .portfolio_img {
+    display: inline-block;
+    width: 24%;
+    height: 16em;
+    /*get rid of + and hover effect, add description text, make picture a link*/
+  }
+  .background-image {
+    padding-bottom: 30%; 
+  } 
+  .skill {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (max-width: 780px) {
   /* For mobile phones: */
   .background-image {
-    height: 550px; }
+    height: 550px;
+    padding-bottom: 30%; }
 
   .col-md-4 {
     width: 100%; }
@@ -298,5 +350,16 @@ p.text-content {
     width: 100%;
     max-width: 992px;
     max-height: 900px; } }
+
+/*for small screens*/
+
+
+
+
+
+
+
+
+
 
 /*# sourceMappingURL=main.css.map */
