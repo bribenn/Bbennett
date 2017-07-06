@@ -7,6 +7,12 @@ $(document).ready(function(){
 		$menu.removeClass('open');
 	});
 
+	// make project divs into links
+	$(".portfolio_img").click(function() {
+	  window.location = $(this).find("a").attr("href"); 
+	  return false;
+	});
+
 	// scrolling words
 		var words = ["coder", "problem solver",  "team player", "developer", "bit weird"],
 			el = document.getElementById('scroll'),

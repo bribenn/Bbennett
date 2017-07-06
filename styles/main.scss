@@ -118,18 +118,25 @@ body {
 /*Project Descriptions */
 
 p.text-content {
-  background: rgba(132, 153, 116, 0.75);
+  background: rgba(132, 153, 116, 0.9);
   color: $cream;
   cursor: pointer;
-  height: 100%;
+  height: 101%;
   width: 100%;
   border-radius: 50%;
   opacity: 0;
   display: block;
   text-align: center;
-  padding-top: 5%;
+  font-size: 1.25em;
+  padding: 22% 3% 0% 3%;
   margin-top: -21%;
 }
+  span {
+    color: $charcoal;
+    font-weight: bold;
+    display: block;
+  }
+
 
 .portfolio_img a {
   text-decoration: none;
@@ -146,24 +153,24 @@ p.text-content {
 .portfolio_img h1:hover + p.text-content {
   opacity: 1;
 }
-
+ /*project images, as div backgrounds*/
 .img_one {
-  background-image: url("../img/dojosecrets.png");
-  background-size: cover;
-}
-
-.img_two {
   background-image: url("../img/placeholder_portfolio.png");
   background-size: cover;
 }
 
-.img_three {
+.img_two {
   background-image: url("../img/dojosecrets.png");
   background-size: cover;
 }
 
+.img_three {
+  background-image: url("../img/pingportal.png");
+  background-size: cover;
+}
+
 .img_four {
-  background-image: url("../img/dojosecrets.png");
+  background-image: url("../img/fooddiary.png");
   background-size: cover;
 }
 
@@ -286,6 +293,37 @@ p.text-content {
   background-color: $cream;
   }
 
+@media only screen and (min-width: 1020px) and (max-width: 1285px){
+  /*for that ipad pro*/
+  .background-image {
+    padding-bottom: 30%; 
+  }
+  .portfolio_img {
+    height: 17em;
+    vertical-align: top;
+  }
+  #portfolio {
+    text-align: center;
+    padding-bottom: 35%;
+  }
+  .project_description {
+    opacity: 0;
+    font-size: 16em;
+  }
+  p.text-content {
+    opacity: 1;
+    background: none;
+    border-radius: 0px;
+    color: $charcoal;
+    padding-top: 15%;
+  } span {
+    color: $fresh;
+  }
+  .hover {
+  cursor: pointer;
+  background-color: $fresh;
+  }
+}
 
 @media only screen and (max-width: 1000px) {
   .left-col {
@@ -320,12 +358,13 @@ p.text-content {
   }
   #portfolio {
     text-align: center;
+    padding-bottom: 40%;
   }
   .portfolio_img {
     display: inline-block;
     width: 24%;
     height: 16em;
-    /*get rid of + and hover effect, add description text, make picture a link*/
+    vertical-align: top;
   }
   .background-image {
     padding-bottom: 30%; 
@@ -334,6 +373,22 @@ p.text-content {
     display: inline-block;
     width: 33%;
     vertical-align: top;
+  }
+  .project_description {
+    opacity: 0;
+    font-size: 16em;
+  }
+  p.text-content {
+    opacity: 1;
+    background: none;
+    border-radius: 0px;
+    color: $charcoal;
+  } span {
+    color: $fresh;
+  }
+  .hover {
+  cursor: pointer;
+  background-color: $fresh;
   }
 }
 
