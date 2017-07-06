@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	var $menu = $('#sidebar-wrapper');
-	// I don't really understand this evt function
 	$(document).on('click', '.js-menu-open', function(evt){
 		$menu.addClass('open');
 		return evt.target.tagName === 'A';
@@ -8,20 +7,37 @@ $(document).ready(function(){
 		$menu.removeClass('open');
 	});
 
-// 	$('.row').hover(
-// 	function() {
-//     $('#box-1').fadeOut(300, function() {
-//     	$('#box-b2').fadeIn(300);
-//     });
-//   },
+	// make project divs into links
+	$(".portfolio_img").click(function() {
+	  window.location = $(this).find("a").attr("href"); 
+	  return false;
+	});
 
-//   function() {
-//     $('#box-b2').fadeOut(300, function() {
-//     	$('#box-b1').fadeIn(300);
-//     });
-//   }
-// );
-
+	// scrolling words
+		var words = ["coder", "problem solver",  "team player", "developer", "bit weird"],
+			el = document.getElementById('scroll'),
+			word_counter = 0,
+			character_counter = 0;
+		function updateText()
+		{
+			let character = words[word_counter][character_counter];
+			if(character == ' '){
+				el.innerHTML = el.innerHTML + '&nbsp;';
+				character_counter++;
+			} else {
+				el.innerHTML = el.innerHTML+words[word_counter][character_counter++];
+			}
+			if(character_counter == words[word_counter].length +1)
+			{
+				word_counter++; 	//choose a different word
+				character_counter = 0;	//start over with the first character of the word
+				el.innerHTML = '';  //set the html to be blank
+				//if we're displaying the last word, go back to the first word
+				if(word_counter == words.length)
+					word_counter = 0;
+			}
+		}
+		setInterval(updateText,300);
 });
 
 

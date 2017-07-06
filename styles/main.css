@@ -1,72 +1,155 @@
+/*new colors*/
 * {
-  font-family: 'Josefin Slab', serif; }
+  font-family: 'Goudy Bookletter 1911', cursive;
+  margin: 0px;
+  padding: 0px; }
 
 body {
-  color: #5E412F; }
+  color: #36384c; }
 
 .social-icon:hover {
-  background-color: #ff8c66;
+  background-color: #849974;
   border-radius: 25px; }
+
+.skills {
+  width: 60%;
+  display: block;
+  margin: auto;
+  margin-top: -65px; }
+
+#skills {
+  background-color: #e3bab3; }
+
+#skills h1 {
+  text-align: center;
+  font-size: 5em;
+  color: #charcoal; }
+
+#skills h1:first-of-type {
+  margin-top: 33%; }
+
+#skills p {
+  text-align: center;
+  font-size: 20px; }
+
+.frameworks {
+  background-color: #e3bab3;
+  padding-right: 0px; }
 
 .header {
   text-align: center;
-  font-size: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
+  font-size: 2.5em;
+  margin-bottom: 1.25em; }
 
 .background-image {
   text-align: center;
   margin: auto;
-  background-image: url("../img/background2.jpg");
+  background-image: url("../img/background.jpeg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-attachment: fixed;
   position: relative;
   padding-top: 10%;
   padding-bottom: 50%; }
-  .background-image h1 {
-    font-size: 55px; }
-  .background-image h2 {
-    margin-top: 10px;
-    font-style: italic; }
+
+.background-image h1 {
+  font-size: 55px;
+  text-shadow: 4px 4px 4px #aaa; }
+
+.background-image h2 {
+  margin-top: 10px;
+  font-style: italic; }
 
 #about {
-  padding: 100px;
-  background-image: url("../img/glitter.jpg");
-  }
+  height: 57em;
+  background-color: #e9dccd; }
+
+.about {
+  width: 80%;
+  margin-top: 33%; }
+
+.about p {
+  padding: .625em; }
+
+#scroll {
+  display: inline;
+  text-align: center;
+  color: #36384c;
+  font-size: 6.250em; }
 
 .left-col {
+  background-image: url("../img/background_climb_green.png");
+  background-repeat: none;
+  height: 100%;
   text-align: right;
-  color: #ff8c66; }
+  color: #e3bab3; }
+
+.left-col h1 {
+  font-size: 5em; }
 
 .right-col {
-  font-size: 18px; }
+  font-size: 1.250em; }
 
-.word-cloud {
+/*Project Descriptions */
+p.text-content {
+  background: rgba(132, 153, 116, 0.9);
+  color: #e9dccd;
+  cursor: pointer;
+  height: 101%;
   width: 100%;
-  height: 450px; }
+  border-radius: 50%;
+  opacity: 0;
+  display: block;
+  text-align: center;
+  font-size: 1.25em;
+  padding: 22% 3% 0% 3%;
+  margin-top: -21%; }
+
+span {
+  color: #36384c;
+  font-weight: bold;
+  display: block; }
+
+.portfolio_img a {
+  text-decoration: none;
+  display: inline;
+  color: #e9dccd; }
 
 #portfolio {
-  background-image: url("../img/glitter.jpg");
-  background-size: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  background-color: #e3bab3;
+  padding-top: 5%;
+  padding-bottom: 5%; }
 
-.portfolio-pictures {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 375px;
-  width: 100%; }
+.portfolio_img h1:hover + p.text-content {
+  opacity: 1; }
 
-.portfolio-pictures img {
-  height: 375px;
-  width: 500px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 375px;
-  width: 100%; }
+/*project images, as div backgrounds*/
+.img_one {
+  background-image: url("../img/placeholder_portfolio.png");
+  background-size: cover; }
+
+.img_two {
+  background-image: url("../img/dojosecrets.png");
+  background-size: cover; }
+
+.img_three {
+  background-image: url("../img/pingportal.png");
+  background-size: cover; }
+
+.img_four {
+  background-image: url("../img/fooddiary.png");
+  background-size: cover; }
+
+.portfolio_img {
+  height: 350px;
+  border-radius: 50%;
+  border: solid 5px #613a43;
+  padding-right: 0px;
+  padding-left: 0px; }
+
+#contact {
+  background-color: #e9dccd;
+  padding-top: 5%; }
 
 /*navbar*/
 #sidebar-wrapper {
@@ -80,17 +163,19 @@ body {
   z-index: 2;
   overflow: hidden;
   animation: all 0.5s ease;
-  background-color: #78C0A8; }
-  #sidebar-wrapper h2 {
-    color: #5E412F;
-    font-size: 40px;
-    line-height: 40px;
-    margin: 4px;
-    padding: 0px; }
-  #sidebar-wrapper a {
-    color: #FCEBB6;
-    font-size: 24px;
-    margin-left: 10px; }
+  background-color: #36384c; }
+
+#sidebar-wrapper h2 {
+  color: #e3bab3;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 4px;
+  padding: 0px; }
+
+#sidebar-wrapper a {
+  color: #e9dccd;
+  font-size: 24px;
+  margin-left: 10px; }
 
 .sidebar-links {
   display: flex;
@@ -106,13 +191,14 @@ body {
   margin-top: 10px;
   margin-left: 30px;
   align-self: flex-start;
-  color: #FCEBB6;
+  color: #e9dccd;
   height: 30px;
   width: 30px;
   font-size: 30px; }
-  #close-btn:hover {
-    cursor: pointer;
-    color: #ff8c66; }
+
+#close-btn:hover {
+  cursor: pointer;
+  color: #849974; }
 
 #hamburger {
   display: flex;
@@ -124,63 +210,29 @@ body {
   top: 20px;
   left: 30px;
   z-index: 1; }
-  #hamburger img {
-    height: 48px;
-    width: 48px; }
-  #hamburger :hover {
-    background-color: #ff8c66;
-    border-radius: 25px;
-    cursor: pointer; }
 
-/*#hamburger:hover {
-  background-color: $pink;
+#hamburger img {
+  height: 48px;
+  width: 48px; }
+
+#hamburger :hover {
+  background-color: #849974;
   border-radius: 25px;
-}*/
-.footer {
-  text-align: center;
-  clear: both; }
+  cursor: pointer; }
 
-/*flip the pics */
-/*.about-box-container {
-  height: 450px;
-}
-.about-box {
-  width: 100%;
-}
-
-.about-box-container .back {
-  width: 450px;
-  height: 450px;
-  display: flex;
-  flex-direction: row;
-  text-align:center;
-  align-items: center;
-  justify-content: space-around;
-  background: $pink;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: all 0.3s ease-out;
-  margin-left: 15px;
-  font-size: 20px;
-}*/
-/*
-.back:hover {
-  opacity: 1;
-}
-
-img:hover {
-  opacity: 1;
-}
-
-.about-box-container:hover {
-  cursor: pointer;
-}*/
 .email-submit {
   text-align: center;
   font-size: 20px;
-  margin-bottom: 50px; }
+  padding-bottom: 50px; }
+  .email-submit input {
+    display: block;
+    margin: auto;
+    margin-bottom: 3%; }
+
+/*hover over email submit button*/
+.hover:hover {
+  cursor: pointer;
+  background-color: #849974; }
 
 .back-to-top {
   display: flex;
@@ -192,22 +244,121 @@ img:hover {
   bottom: 20px;
   left: 30px;
   z-index: 1; }
-  .back-to-top img {
-    height: 48px;
-    width: 48px; }
-  .back-to-top :hover {
-    cursor: pointer;
-    background-color: #ff8c66;
-    border-radius: 25px; }
 
-.hover:hover {
+.back-to-top img {
+  height: 48px;
+  width: 48px; }
+
+.back-to-top :hover {
   cursor: pointer;
-  background-color: #ff8c66; }
+  background-color: #849974;
+  border-radius: 25px; }
 
-@media only screen and (max-width: 768px) {
+.footer {
+  text-align: center;
+  clear: both;
+  font-size: 16px;
+  background-color: #e9dccd; }
+
+@media only screen and (min-width: 1020px) and (max-width: 1285px) {
+  /*for that ipad pro*/
+  .background-image {
+    padding-bottom: 30%; }
+
+  .portfolio_img {
+    height: 17em;
+    vertical-align: top; }
+
+  #portfolio {
+    text-align: center;
+    padding-bottom: 35%; }
+
+  .project_description {
+    opacity: 0;
+    font-size: 16em; }
+
+  p.text-content {
+    opacity: 1;
+    background: none;
+    border-radius: 0px;
+    color: #36384c;
+    padding-top: 15%; }
+
+  span {
+    color: #849974; }
+
+  .hover {
+    cursor: pointer;
+    background-color: #849974; } }
+@media only screen and (max-width: 1000px) {
+  .left-col {
+    background: none;
+    text-align: center;
+    height: 0%; }
+
+  .right-col {
+    text-align: center; }
+
+  #about {
+    height: 45em; }
+
+  #skills h1:first-of-type {
+    margin-top: 4%; }
+
+  .skills {
+    width: 45%;
+    margin-top: auto; }
+
+  .about {
+    margin-top: 30%;
+    width: 100%; }
+    .about p {
+      text-align: center; }
+
+  .skills div.col-md-3 {
+    display: inline-block;
+    width: 45%;
+    margin: auto; }
+
+  #portfolio {
+    text-align: center;
+    padding-bottom: 40%; }
+
+  .portfolio_img {
+    display: inline-block;
+    width: 24%;
+    height: 16em;
+    vertical-align: top; }
+
+  .background-image {
+    padding-bottom: 30%; }
+
+  .skill {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top; }
+
+  .project_description {
+    opacity: 0;
+    font-size: 16em; }
+
+  p.text-content {
+    opacity: 1;
+    background: none;
+    border-radius: 0px;
+    color: #36384c; }
+
+  span {
+    color: #849974; }
+
+  .hover {
+    cursor: pointer;
+    background-color: #849974; } }
+@media only screen and (max-width: 780px) {
   /* For mobile phones: */
   .background-image {
-    height: 550px; }
+    height: 550px;
+    padding-bottom: 30%; }
 
   .col-md-4 {
     width: 100%; }
@@ -216,5 +367,7 @@ img:hover {
     width: 100%;
     max-width: 992px;
     max-height: 900px; } }
+/*for small screens*/
+/*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=main.css.map */
