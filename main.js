@@ -31,16 +31,17 @@ $(document).ready(function(){
 	          var $target = $(target);
 	          $target.focus();
 	          if ($target.is(":focus")) { // Checking if the target was focused
+	            	$target.blur();
 	            return false;
 	          } else {
 	            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
 	            $target.focus(); // Set focus again
+	            $target.blur();
 	          };
 	        });
 	      }
 	    }
 	  });
-	
 
 	// make project divs into links
 	$(".portfolio_img").click(function() {
