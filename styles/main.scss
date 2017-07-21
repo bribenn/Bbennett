@@ -1,18 +1,11 @@
-$site-brown: #5E412F;
-$site-orange: #F07818;
-$site-tan: #FCEBB6;
-$site-turquoise: #78C0A8;
-$site-gold: #F0A830;
-$pink: #ff8c66;
-
-/*new colors*/
+/*site colors*/
 $charcoal: #36384c;
 $fresh: #849974;
 $burgundy: #613a43;
 $petal: #e3bab3;
 $cream: #e9dccd;
 
-
+/*site font*/
 * {
   font-family: 'Goudy Bookletter 1911', cursive;
   margin: 0px;
@@ -39,7 +32,7 @@ body {
 
 #skills h1 {
   text-align: center;
-  font-size: 5em;
+  font-size: 3.5em;
   color: #charcoal;
 }
 
@@ -59,7 +52,7 @@ body {
 
 .header {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3.5em;
   margin-bottom: 1.25em; }
 
 .background-image {
@@ -86,7 +79,10 @@ body {
 
 .about {
   width: 80%;
-  margin-top: 33%;
+  margin-top: 5%;
+  h1 {
+    font-size: 3em;
+  }
 }
 
 .about p {
@@ -257,7 +253,6 @@ p.text-content {
     cursor: pointer; }
 
 .email-submit {
-  text-align: center;
   font-size: 20px;
   padding-bottom: 50px; 
   input {
@@ -265,6 +260,10 @@ p.text-content {
     margin: auto;
     margin-bottom: 3%;
   }
+}
+
+.email-submit.container {
+  width: 50%;
 }
 
 /*hover over email submit button*/
@@ -295,6 +294,7 @@ p.text-content {
   clear: both; 
   font-size: 16px;
   background-color: $cream;
+  padding-bottom: 2em;
   }
 
 @media only screen and (min-width: 1020px) and (max-width: 1285px){

@@ -1,4 +1,5 @@
-/*new colors*/
+/*site colors*/
+/*site font*/
 * {
   font-family: 'Goudy Bookletter 1911', cursive;
   margin: 0px;
@@ -22,7 +23,7 @@ body {
 
 #skills h1 {
   text-align: center;
-  font-size: 5em;
+  font-size: 3.5em;
   color: #charcoal; }
 
 #skills h1:first-of-type {
@@ -38,7 +39,7 @@ body {
 
 .header {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3.5em;
   margin-bottom: 1.25em; }
 
 .background-image {
@@ -66,7 +67,9 @@ body {
 
 .about {
   width: 80%;
-  margin-top: 33%; }
+  margin-top: 5%; }
+  .about h1 {
+    font-size: 3em; }
 
 .about p {
   padding: .625em; }
@@ -222,13 +225,15 @@ span {
   cursor: pointer; }
 
 .email-submit {
-  text-align: center;
   font-size: 20px;
   padding-bottom: 50px; }
   .email-submit input {
     display: block;
     margin: auto;
     margin-bottom: 3%; }
+
+.email-submit.container {
+  width: 50%; }
 
 /*hover over email submit button*/
 .hover:hover {
@@ -259,7 +264,8 @@ span {
   text-align: center;
   clear: both;
   font-size: 16px;
-  background-color: #e9dccd; }
+  background-color: #e9dccd;
+  padding-bottom: 2em; }
 
 @media only screen and (min-width: 1020px) and (max-width: 1285px) {
   /*for that ipad pro*/

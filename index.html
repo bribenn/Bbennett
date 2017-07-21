@@ -61,11 +61,12 @@
     </div>
     <div class="col-md-6 right-col">
       <div class='about'>
+        <h1 class="header"> About Me </h1>
         <p>Customarily I work on both sides of the HTTP response cycle, designing databases as well as crafting an intuitive UI. For me, it’s the human aspect which is most important. I savor getting lost in solving a complicated problem whether it’s on the front-end or back-end, as my primary goal is to help effectively solve real world problems by building software that is easy to use and understand.</p> 
 
         <p>I come from an office management background which solidified my skills in project management, operations, marketing, recruiting, HR, finance, and culture cultivation.</p>
 
-        <p>Check out my <a href="https://drive.google.com/file/d/0B1wZCqvmfHJEZE1RYlBjdHB1c1k/view?usp=sharing" target="_blank">CV</a> for more of my professional background.</p> 
+        <p>Check out my <a href="https://drive.google.com/file/d/0B1wZCqvmfHJEZE1RYlBjdHB1c1k/view?usp=sharing" target="_blank">Resumé</a> for more of my professional background.</p> 
       </div>
     </div>
   </div>
@@ -76,6 +77,8 @@
     <div class="col-md-3">
       <h1>Technical</h1>
       <h1>Skills</h1>
+      <h1>and</h1>
+      <h1>Projects</h1>
     </div>
     <div class="skill col-md-3">
       <img src="img/languages.png" class='skills'>
@@ -152,18 +155,29 @@
   </div>
 </div> 
 
-  <div id="contact" class="contact">
+  <div id="contact" class="container-fluid contact">
     <div class="header">
       Contact
     </div>
-    <div class="email-submit">
      <!-- email submission form -->
-     <form action="https://formspree.io/bri.bennett89@gmail.com" method="POST">
-        <input type="text" placeholder="Your Name Here" name="name">
-        <input type="email" placeholder="Your Email Here" name="_replyto">
-        <textarea placeholder="Your Message Here" cols="45" rows="5" name="message"></textarea> 
-        <input class="hover" type="submit" value="Send">
-     </form>
+    <div class="email-submit container">
+        <form class="col-md-12" action="https://formspree.io/bri.bennett89@gmail.com" method="POST">
+          <div class="form-group">
+            <label class="col-form-label" for="name">Name</label>
+            <input type="text" class="form-control input-lg" id="name" name="name">
+          </div>
+          <div class="form-group">
+            <label class="col-form-label" for="email">Email</label>
+            <input type="text" class="form-control input-lg" id="email" name="_replyto">
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message Here</label>
+            <textarea rows="3" type="text" class="form-control input-lg" id="message" name="message"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" class="form-control input-lg hover" value="Send">
+          </div>
+        </form>
     </div>
   </div> 
   <div class="footer">
