@@ -339,27 +339,32 @@ p.text-content {
   text-align: center;
   }
   #about {
-    height: 45em;
+    height: 50em;
   }
   #skills h1:first-of-type {
     margin-top: 4%;
   }
   .skills {
-    width: 45%;
     margin-top: auto;
   }
+  
+  #skills h1 {
+      display: inline-block;
+      padding: 1%;
+    }
+
   .about {
     margin-top: 30%;
     width: 100%;
-    p {
-    text-align: center;
+    h1 {
+      display: none;
     }
   }
-  .skills div.col-md-3 {
-    display: inline-block;
-    width: 45%;
-    margin:auto;
+
+  .skills_container {
+    text-align: center;
   }
+
   #portfolio {
     text-align: center;
     padding-bottom: 40%;
@@ -396,19 +401,6 @@ p.text-content {
   }
 }
 
-@media only screen and (max-width: 780px) {
-  /* For mobile phones: */
-  .background-image {
-    height: 550px;
-    padding-bottom: 30%; }
-
-  .col-md-4 {
-    width: 100%; }
-
-  img {
-    width: 100%;
-    max-width: 992px;
-    max-height: 900px; } }
 
 /*for small screens*/
 
