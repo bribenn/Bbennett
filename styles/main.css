@@ -339,7 +339,8 @@ span {
     vertical-align: top; }
 
   .background-image {
-    padding-bottom: 30%; }
+    padding-bottom: 30%;
+    padding-top: 5%; }
 
   .skill {
     display: inline-block;
