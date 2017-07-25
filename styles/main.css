@@ -82,7 +82,7 @@ body {
 
 .left-col {
   background-image: url("../img/background_climb_green.png");
-  background-repeat: none;
+  background-repeat: no-repeat;
   height: 100%;
   text-align: right;
   color: #e3bab3; }
