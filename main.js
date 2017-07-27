@@ -45,7 +45,10 @@ $(document).ready(function(){
 
 	// make project divs into links
 	$(".portfolio_img").click(function() {
-	  window.location = $(this).find("a").attr("href"); 
+	  url = $(this).find("a").attr("href"); 
+	  console.log(url)
+	  window.open(url, '_blank')
+	  console.log($(this).find("a").attr("href"))
 	  return false;
 	});
 
