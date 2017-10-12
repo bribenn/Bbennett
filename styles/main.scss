@@ -149,10 +149,14 @@ p.text-content {
 .portfolio_img h1:hover + p.text-content {
   opacity: 1;
 }
+ 
  /*project images, as div backgrounds*/
+
 .img_one {
   background-image: url("../img/placeholder_portfolio.png");
   background-size: cover;
+  height: 25%;
+  width: 25%;
 }
 
 .img_two {

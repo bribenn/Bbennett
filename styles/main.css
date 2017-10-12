@@ -129,7 +129,9 @@ span {
 /*project images, as div backgrounds*/
 .img_one {
   background-image: url("../img/placeholder_portfolio.png");
-  background-size: cover; }
+  background-size: cover;
+  height: 25%;
+  width: 25%; }
 
 .img_two {
   background-image: url("../img/dojosecrets.png");
